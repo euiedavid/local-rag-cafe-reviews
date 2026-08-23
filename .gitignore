@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Chroma vector databases
+*_chroma_db/
+chrome_langchain_db/
+
+# Lecturer's dataset
+realistic_restaurant_reviews.csv
