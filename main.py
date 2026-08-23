@@ -8,14 +8,6 @@ from vector import retriever
 model = OllamaLLM(model="llama3.2")
 
 # define what the model will do
-# template = """
-# You are an expert in answering questions about a pizza restaurant
-
-# Here are the relevant reviews: {reviews}
-
-# Here is the question to answer: {question}
-# """
-
 template = """
 You are a helpful AI assistant that answers questions about restaurants
 using customer reviews and restaurant information provided in the context.
