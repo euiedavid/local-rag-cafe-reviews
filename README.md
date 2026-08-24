@@ -8,9 +8,11 @@ The application combines **LangChain**, **ChromaDB**, **Ollama embeddings**, and
 
 ## Project Overview
 
-This project explores the fundamentals of building a **local Retrieval-Augmented Generation (RAG)** system using a real-world cafe review dataset.
+This project explores the fundamentals of building a **local Retrieval-Augmented Generation (RAG)** system using a cafe review dataset containing restaurant information and customer review text.
 
-The application uses **775 customer reviews** from cafes across multiple cities in India. Users can ask questions about restaurants or customer experiences, and the system retrieves semantically relevant reviews before passing them to a locally hosted LLM for response generation.
+The application uses **775 review entries** from cafes across multiple cities in India. Users can ask questions about restaurants or customer experiences, and the system retrieves semantically relevant reviews before passing them to a locally hosted LLM for response generation.
+
+The dataset describes its review entries as "genuine customer reviews." However, the available dataset documentation does not provide detailed information about the original data collection methodology or independent verification of the review provenance.
 
 This repository serves as the **baseline implementation** for a local RAG application. More advanced retrieval, grounding, filtering, and response-generation techniques will be explored in a separate project.
 
